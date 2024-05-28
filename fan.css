@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: white;
+}
+.header ul {
+    display: flex;
+}
+.header ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 25px;
+}
+.btn button{
+    padding: 13px 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn .btn-two{
+    background-color: #fff;
+    color: #000;
+    padding: 12px 30px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.hero{
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,3)), url(https://www.shutterstock.com/image-photo/taking-care-crop-aerial-view-600nw-2083392067.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    padding: 30px 90px;
+    text-align: center;
+    opacity: 0.6;
+}
+.hero h1{
+    font-size: 80px;
+    padding-top: 100px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.hero p{
+    
+    color: #fff;
+}
+
+.hero button{
+    margin-top: 40px;
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #148ed4;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+.hero .center{
+    padding: 10px 25px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.side{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.side-left{
+    width: 400px;
+    padding: 30px 90px;
+}
+.side-right img{
+    padding-right: 50px;
+    width: 400px;
+    border-radius: 10px;
+}
+.side-right {
+    position: relative;
+}
+.side-right .stack{
+    background-color: #e4e4e4;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    border-radius: 10px;
+    bottom: -20px;
+    right: 150px;
+    padding-top: 10px;
+    text-align: center;
+    color: #0e5f12;
+}
+.side-right .stack article{
+    padding-top: 2px;
+    font-size: 25px;
+}
+.side-left h1{
+    color: #0e5f12;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+.side-btn{
+    margin-top: 50px;
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #0e5f12;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+
+.card h3{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.card p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card-text{
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    justify-content: center;
+    column-gap: 50px;
+}
+.card-body img{
+    width: 150px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+.card-body{
+    width: 200px;
+    height: 350px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 30px 50px;
+}
+.card-body h2{
+    color: #0e5f12;
+    font-size: 30px;
+    text-align: center;
+}
+.card-body p{
+    text-align: justify;
+    padding: 20px;
+}
+
+.text-wrapp h4{
+    text-align: center;
+    color: #0e5f12;
+    margin-top: 70px;
+}
+
+.my-love{
+   background-image: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPg-4dHp6Gec6G7ve8HstzRH0PkkF6VueSQ&usqp=CAU);
+   height: 300px;
+   background-repeat: no-repeat;
+   background-size: 100% 300px;
+   padding-left: 20px;
+   margin-top: 60px;
+}
+.my-love h1{
+    color: #fff;
+    padding: 20px 60px;
+    font-size: 50px;
+}
+.my-love button{
+    padding: 14px 50px;
+    background-color: #186497;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+}
+#my{
+    padding: 12px 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #148ed4;
+}
+
+.service1{
+    background-color: #e4e4e4;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 17px;
+    text-align: center;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+.service p{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+.service-parent{
+    display: flex;
+    justify-content: center;
+}
+.service1 img{
+    padding-top: 20px;
+}
+
+.benefit-parent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+.benefit-left{
+    width: 490px;
+    margin-top: 100px;
+}
+.benefit-right{
+    height: 550px;
+    width: 500px;
+    background-color: #000;
+    border-radius: 10px;
+}
+.benefit-left h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.benefit-left button{
+    padding: 14px 50px;
+    background-color: #186497;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.icon-parent{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+    align-items: center;
+    gap: 30px;
+}
+
+.icon-parent i{
+    color: #fff;
+    font-size: 60px;
+}
+.icon-parent h1{
+    margin-top: 20px;
+    font-size: 50px;
+    color: #fff;
+}
+.icon-parent p{
+    color: #fff;
+}
+
+.benefit-left span{
+    color: #148ed4;
+}
+ .review-parent{
+   margin: 100px 8px;
+   display: grid;
+   justify-content: space-around;
+   grid-template-columns: 100px 800px 100px;
+   align-items: center;
+
+ }
+.review-left i{
+    width: 80px;
+    height: 80px;
+    font-size: 140px;
+}
+
+.review-right{
+    width: 80px;
+    height: 80px;
+    font-size: 140px;
+}
+
+.review-center{
+    width: 800px;
+    height: 350px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.comment-parent img{
+    width: 200px;
+    border-radius: 12px;
+
+}
+.comment-parent i{
+    color: yellow;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.comment-parent{
+    display: flex;
+    color: white;
+    gap: 50px;
+    margin: 50px;
+}
+.section2 {
+    display: grid;
+    grid-template-columns: repeat(3, 430px);
+    column-gap: 50px;
+    margin: 50px 100px;
+  }
+  
+  .section2-left img {
+    width: 100%;
+    height: 430px;
+    border-radius: 22px;
+  }
+  
+  section2-left h1 {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.99px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .section2-left p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 10px;
+    color: #666666;
+    margin-bottom: 10px;
+  }
+  .Last {
+    height: 500px;
+    background-color: #204e51;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+  }
+  
+  .Last-left {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    width: 350px;
+    height: 140px;
+  }
+  
+  .Last-left h1 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+    text-align: left;
+    margin-bottom: 18px;
+  }
+  
+  .Last-left i {
+    width: 50px;
+    height: 40px;
+    top: 7521px;
+    left: 145px;
+    border-radius: 5px;
+    font-size: 26px;
+  }
+  
+  .Last-left p {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .Last-right {
+    width: 116px;
+    height: 222px;
+    top: 7357px;
+    left: 1095px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    line-height: 45px;
+  }
+
+
+#menuicone{
+    display: none;
+    font-size: 40px;
+}
+@media screen and (max-width: 600px) {
+    .header ul{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    #menuicone{
+        display: block;
+    }
+    .header{
+        padding: 12px;
+    }
+    .header h1{
+
+        font-size: 50px;
+    }
+    .hero h1{
+        font-size: 30px;
+
+    }
+    .hero{
+        padding: 0px;
+    }
+    .side{
+        flex-direction: column;
+        margin: 20px;
+
+    }
+    .side-left, .side-right{
+        width: 300px;
+
+    }
+    .side-right img{
+        width: 300px;
+        margin-top: 30px;
+    }
+    .side-left{
+        padding: 0;
+    }
+    .service p {
+        margin-top: 50px 18px;
+        font-size: 16px;
+
+    }
+    .service-parent{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .card h3{
+        font-size: 17px;
+
+    }
+    .card-body{
+        width: 250px;
+    }
+    .card-text{
+        grid-template-columns: 300px;
+        margin-left: 17px;
+    }
+    .text-wrapp h1{
+        font-size: 25px;
+    }
+
+    .benefit-parent{
+        flex-direction: column;
+    }
+
+    .benefit-left h1{
+     font-size: 30px;
+    }
+    .benefit-right{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .benefit-left{
+        width: 300px;
+        padding: 10px 40px;
+    }
+    .review-left{
+        width: 100%;
+        height: 30px;
+    }
+    .review-right{
+        width: 100%;
+        height: 30px;
+    }
+    .review-left i{
+        font-size: 60px;
+    }
+    .review-right i{
+        font-size: 60px;
+    }
+    .review-center{
+        width: 100%;
+        height: 180px;
+    }
+    .comment-parent img{
+        margin-top: 15px;
+        width: 100px;
+        height: 100px;
+        border-radius: 4px;
+
+    }
+    .comment-parent i{
+        font-size: 12px;
+        padding: 0px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .comment-parent h1{
+        font-size: 15px;
+    }
+    .comment-parent{
+        padding: 0px;
+        margin: 4px;
+        gap: 8px;
+        }
+        .review-parent{
+            gap: 20px;
+            justify-content: start;
+            grid-template-columns: 30px 280px 30px;
+        }
+        .comment-parent p{
+            padding-top: 8px;
+            font-size: 13px;
+        }
+
+}
